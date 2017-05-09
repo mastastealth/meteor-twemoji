@@ -1,0 +1,19 @@
+{
+  "name": "meteor-twemoji",
+  "version": "1.5.0",
+  "description": "Emoji unicode to twitter-style image converter",
+  "main": "emoji.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastastealth/meteor-twemoji.git"
+  },
+  "author": "Brian Franco <hi@brianfran.co> (http://brianfran.co/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mastastealth/meteor-twemoji/issues"
+  },
+  "homepage": "https://github.com/mastastealth/meteor-twemoji#readme"
+}
