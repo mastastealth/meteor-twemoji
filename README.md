@@ -7,7 +7,7 @@ A Meteor package to convert [emoji codes](http://www.emoji-cheat-sheet.com/) (li
 Using the Meteor Package System, add the emoji package from [Atmosphere](https://atmosphere.meteor.com/):
 
 ```
-meteor add davidfrancisco:twemoji
+npm install git+ssh://git@github.com:mastastealth/meteor-twemoji.git --save
 ```
 
 ### Usage
@@ -48,16 +48,6 @@ img.emoji {
   vertical-align: -0.1em;
 }
 ```
-
-### Custom emoji
-
-Some emojis available in several libraries and applications are custom made and don't have a twitter-style equivalent. As a fallback, for the following images the Universal / Apple style is used: `:fu:` :fu: `:metal:` :metal: `:shipit:` `:squirrel:` :shipit: `:trollface:` :trollface: `:feelsgood:` `:finnadie:` `:goberserk:` `:godmode:` `:hurtrealbad:` `:rage1:` `:rage2:` `:rage3:` `:rage4:` `:suspect:` :suspect:
-
-An [attempt was made to twemojify](https://github.com/dmfrancisco/meteor-twemoji/commit/c3209a6bb4acc71d659ebae9352b9a1156a95243) the following emojis: `:bowtie:` :bowtie: `:neckbeard:` :neckbeard: `:octocat:` :octocat:
-
-### List of available emoji
-
-The package does not include a list of all the available emoji in order to make the library lighter. However, if you need an array of emoji codes (for example, to add an autocompletion feature to your app) you can always copy the line that initializes the `files` variable in the `package.js` file.
 
 ## Authors
 
